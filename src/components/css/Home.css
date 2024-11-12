@@ -1,0 +1,19 @@
+/*
+AZUL: #413F8A
+LILA MEDIO: #7C58AA
+LILA OSCURO: #553769
+ROSA: D277BD
+BEIGE: #FEC2B5
+ORIGINAL BEIGE:#FEF094
+CELESTE: BCA2E7
+
+*/
+
+#box-center-home {
+  width: 80%;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

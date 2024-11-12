@@ -1,0 +1,55 @@
+/*
+AZUL: #413F8A
+LILA MEDIO: #7C58AA
+LILA OSCURO: #553769
+ROSA: D277BD
+BEIGE: #FEC2B5
+ORIGINAL BEIGE:#FEF094
+CELESTE: BCA2E7
+
+*/
+
+#caja-footer {
+  width: 100%;
+  height: 5rem;
+  border-top: 2px solid #FEF094;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#caja-redes {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50%;
+
+}
+.social-icon {
+  font-size: 1.3rem;
+  color: #FEF094;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+
+.social-icon:hover {
+  color: #553769;
+  cursor: pointer;
+}
+
+
+
+#caja-texto-footer {
+  color: #FEF094;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 15px;
+  padding: 0;
+}

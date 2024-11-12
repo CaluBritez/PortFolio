@@ -1,0 +1,67 @@
+/*
+AZUL: #413F8A
+LILA MEDIO: #7C58AA
+LILA OSCURO: #553769
+ROSA: D277BD
+BEIGE: #FEC2B5
+ORIGINAL BEIGE:#FEF094
+CELESTE: BCA2E7
+
+*/
+
+#box-header-main {
+  width: 100%;
+  min-height: 5.5rem;
+  height: auto;
+  background-color: #553769;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*border-bottom: 2px solid #FC5439;*/
+
+}
+#box-header-main-center {
+  width: 80%;
+  height: 5.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#box-header-logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #FEF094;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#box-header-logo h2{
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 2px black;
+}
+
+#box-header-botonera {
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#box-header-botonera a{
+  color: #FEF094;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border-top: 2px solid #553769;
+  border-bottom: 2px solid #FEF094;
+}
+#box-header-botonera a:hover{
+  box-shadow: 10px 10px 15px black;
+  border-bottom:2px solid #553769;
+}
+

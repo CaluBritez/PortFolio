@@ -17,6 +17,7 @@ CELESTE: BCA2E7
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #553769;
 }
 #caja-redes {
   display: flex;
@@ -34,11 +35,12 @@ CELESTE: BCA2E7
   padding-bottom: 0;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+  transition: transform 0.3s ease;
 }
 
 
 .social-icon:hover {
-  color: #553769;
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen al hacer hover */
   cursor: pointer;
 }
 

@@ -1,19 +1,18 @@
 /*
-AZUL: #413F8A
+AZUL: #372F6B
 LILA MEDIO: #7C58AA
 LILA OSCURO: #553769
+ORIGINAL BEIGE:#FEF094
+
 ROSA: D277BD
 BEIGE: #FEC2B5
-ORIGINAL BEIGE:#FEF094
 CELESTE: BCA2E7
 
 */
 
 #box-header-main {
   width: 100%;
-  min-height: 5.5rem;
   height: auto;
-  background-color: #553769;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,11 +21,11 @@ CELESTE: BCA2E7
 }
 #box-header-main-center {
   width: 80%;
-  height: 5.5rem;
+  min-height: 5.5rem;
+  height: auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
 }
 #box-header-logo {
   height: 100%;
@@ -44,6 +43,21 @@ CELESTE: BCA2E7
   text-shadow: 2px 2px 2px black;
 }
 
+#box-header-img {
+  height: 5.5rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de opacidad */
+}
+#box-header-img img{
+  height: 100%;
+  margin: 0;
+  opacity: 1;
+}
+
 #box-header-botonera {
   height: auto;
   display: flex;
@@ -55,13 +69,16 @@ CELESTE: BCA2E7
   text-decoration: none;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border-radius: 5px;
-  border-top: 2px solid #553769;
-  border-bottom: 2px solid #FEF094;
+  background-color: #553769;
+  /*border-bottom: 2px solid #FEF094;*/
+  /*border-top: 2px solid #553769;*/
+  /*box-shadow: 10px 10px 15px black;*/
+  box-shadow: 10px 10px 20px #333333;
+  /*box-shadow: 10px 10px 20px #333333;*/
 }
 #box-header-botonera a:hover{
-  box-shadow: 10px 10px 15px black;
-  border-bottom:2px solid #553769;
+  background-color: #372F6B;
 }
 

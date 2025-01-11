@@ -1,8 +1,8 @@
-import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaFacebookSquare } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
 import './css/Footer.css'
 
 
@@ -10,14 +10,21 @@ function Footer(){
     return(
         <div id='caja-footer' className='animate__animated animate__fadeInUp'>
             <div id='caja-redes'>
-                <a ><p className="social-icon"><FaXTwitter /></p></a>
-                <a ><p className="social-icon"><IoLogoInstagram /></p></a>
-                <a ><p className="social-icon"><FaFacebookSquare /></p></a>
-                <a ><p className="social-icon"><CgMail /></p></a>
-                <a ><p className="social-icon"><FaWhatsapp /></p></a>
-            </div>
-            <div id='caja-texto-footer'>
-                <p>© Soluciones Inteligentes - Todos los derechos reservados.</p>
+                <a href="https://www.instagram.com/lucasbritez/" target="_blank" rel="noopener noreferrer">
+                    <p className="social-icon"><IoLogoInstagram /></p>
+                </a>
+                <a href="https://www.facebook.com/calubritez/" target="_blank" rel="noopener noreferrer">
+                    <p className="social-icon"><FaFacebookSquare /></p>
+                </a>
+                <a >
+                    <p className="social-icon"><CgMail /></p>
+                </a>
+                <a href="https://www.linkedin.com/in/lucasgastonbritez/" target="_blank" rel="noopener noreferrer">
+                    <p className="social-icon"><FaLinkedin /></p>
+                </a>
+                <a href="https://github.com/CaluBritez" target="_blank" rel="noopener noreferrer">
+                    <p className="social-icon"><BsGithub /></p>
+                </a>
             </div>
         </div> 
 

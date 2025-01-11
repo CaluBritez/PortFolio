@@ -1,9 +1,23 @@
+/*
+AZUL: #413F8A
+LILA MEDIO: #7C58AA
+LILA OSCURO: #553769
+ROSA: D277BD
+BEIGE: #FEC2B5
+ORIGINAL BEIGE:#FEF094
+CELESTE: BCA2E7
+
+*/
+
+
 body {
   margin: 0;
   padding: 0;
   min-width: 320px;
   width: 100%;
-  min-height: 100vh;
+  min-height: 47rem;
+  height: auto;
+  background-color: #553769;
 }
 div {
   box-sizing: border-box;

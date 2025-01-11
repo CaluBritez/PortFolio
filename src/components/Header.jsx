@@ -1,6 +1,6 @@
 import './css/Header.css'
 
-import Calu from '../assets/caluSinFondo.png'
+import 'animate.css';
 
 
 export const Header = () => {
@@ -10,11 +10,11 @@ export const Header = () => {
 
       <div id='box-header-main-center'>
 
-        <div id='box-header-botonera'>
-          <nav className="navbar navbar-expand-lg">
+        <div id='box-header-botonera' className='animate__animated animate__fadeInDown'>
+          <nav className="navbar navbar-expand-lg botonResponsive">
             <div className="container-fluid">
               {/* <a className="navbar-brand" href="#">Navbar</a> */}
-              <button className="navbar-toggler fondo-milk" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse" id="navbarSupportedContent">

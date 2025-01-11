@@ -38,13 +38,10 @@ CELESTE: BCA2E7
   transition: transform 0.3s ease;
 }
 
-
 .social-icon:hover {
   transform: scale(1.1); /* Aumenta el tamaño de la imagen al hacer hover */
   cursor: pointer;
 }
-
-
 
 #caja-texto-footer {
   color: #FEF094;
@@ -54,4 +51,20 @@ CELESTE: BCA2E7
   align-items: flex-end;
   font-size: 15px;
   padding: 0;
+}
+
+#caja-email {
+  color: #7C58AA;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
+}
+#caja-email p {
+  margin: 0;
+  padding: 0;
+}
+.lilaClaro {
+  color: #7C58AA;
 }

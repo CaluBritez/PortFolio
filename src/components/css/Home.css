@@ -54,3 +54,25 @@ CELESTE: BCA2E7
   font-size: 2.8rem;
   font-family: 'franchise';
 }
+
+@media (max-width: 1024px) {
+  #box-home-img {
+    width: 60%;
+  }
+  #box-home-texto {
+    width: 80%;
+  }
+  #box-home-texto p{
+    text-align: center;
+  }
+  
+}
+@media (max-width: 991px) {
+  #box-home-texto {
+    background-color: red;
+    width: 100%;
+  }
+  #box-home-texto p{
+    font-size: 2.5rem;
+  }
+}

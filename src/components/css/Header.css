@@ -81,4 +81,9 @@ CELESTE: BCA2E7
 #box-header-botonera a:hover{
   background-color: #372F6B;
 }
-
+.botonResponsive button{
+  background-color: #FEF094;
+}
+.botonResponsive ul li{
+  text-align: center;
+}

@@ -1,5 +1,10 @@
 import './css/Header.css'
 
+import { GoLightBulb } from "react-icons/go";
+import { AiOutlineDatabase } from "react-icons/ai";
+import { GiJourney } from "react-icons/gi";
+import { FaUser } from "react-icons/fa";
+
 import 'animate.css';
 
 
@@ -20,16 +25,16 @@ export const Header = () => {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Conocimientos</a>
+                    <a className="nav-link active" aria-current="page" href="#"><GoLightBulb /> Conocimientos</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Proyectos</a>
+                    <a className="nav-link active" aria-current="page" href="#"><AiOutlineDatabase /> Proyectos</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Trayectoria</a>
+                    <a className="nav-link active" aria-current="page" href="#"><GiJourney /> Trayectoria</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Contacto</a>
+                    <a className="nav-link active" aria-current="page" href="#"><FaUser /> Contacto</a>
                   </li>
                 </ul>
               </div>

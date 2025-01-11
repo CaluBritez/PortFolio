@@ -53,26 +53,117 @@ CELESTE: BCA2E7
   margin: 0;
   font-size: 2.8rem;
   font-family: 'franchise';
+  text-align: center;
 }
-
+/*
 @media (max-width: 1024px) {
   #box-home-img {
     width: 60%;
   }
   #box-home-texto {
-    width: 80%;
+    width: 90%;
   }
   #box-home-texto p{
-    text-align: center;
+    font-size: 3rem;
   }
   
 }
 @media (max-width: 991px) {
   #box-home-texto {
+    width: 100%;
     background-color: red;
+  }
+  #box-home-texto p{
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 767px) {
+
+  #box-center-home {
+    width: 90%;
+  }
+
+  #box-home-img {
+    width: 85%;
+  }
+
+  #box-home-texto {
+    width: 100%;
+    background-color: blue;
+  }
+
+  #box-home-texto p{
+    font-size: 1.8rem;
+  }
+}
+*/
+/* Teléfonos pequeños */
+@media (max-width: 575px) {
+  #box-center-home {
+    width: 95%;
+  }
+
+  #box-home-img {
+    width: 80%;
+  }
+  #box-home-texto {
     width: 100%;
   }
   #box-home-texto p{
     font-size: 2.5rem;
   }
+}
+
+/* Teléfonos grandes */
+@media (min-width: 576px) and (max-width: 767px) {
+
+  #box-center-home {
+    width: 95%;
+  }
+
+  #box-home-img {
+    width: 80%;
+  }
+  #box-home-texto {
+    width: 100%;
+  }
+  #box-home-texto p{
+    font-size: 2.5rem;
+  }
+}
+
+/* Tabletas */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #box-center-home {
+    width: 90%;
+  }
+
+  #box-home-img {
+    width: 75%;
+  }
+  #box-home-texto {
+    width: 100%;
+  }
+  #box-home-texto p{
+    font-size: 2.8rem;
+  }
+}
+
+/* Laptops pequeñas */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #box-home-img {
+    width: 60%;
+  }
+  #box-home-texto {
+    width: 90%;
+  }
+  #box-home-texto p{
+    font-size: 3rem;
+  }
+}
+
+/* Monitores grandes */
+@media (min-width: 1200px) {
+  
 }

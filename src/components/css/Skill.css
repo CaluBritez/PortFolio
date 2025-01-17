@@ -1,0 +1,16 @@
+#skill-component {
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+#skill-component p{
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}

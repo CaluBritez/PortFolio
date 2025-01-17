@@ -2,7 +2,7 @@ import './css/Conocimientos.css'
 
 import imgDeveloper from '../assets/softDeve.jpg'
 
-import { FaReact } from "react-icons/fa";
+import {Skill} from './Skill.jsx'
 
 export const Conocimientos = () => {
 
@@ -25,7 +25,10 @@ export const Conocimientos = () => {
               <p>Frontend:</p>
             </div>
             <div id='boxMain-front-developer-skills-frontDev-icons'>
-              <p><FaReact /></p>
+              <Skill technology="React" />
+              <Skill technology="JS" />
+              <Skill technology="Bootstrap" />
+              <Skill technology="GoogleMaps" />
             </div>
           </div>
 

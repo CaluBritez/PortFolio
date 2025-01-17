@@ -55,3 +55,21 @@
   justify-content: center;
   align-items: center;
 }
+#boxMain-front-developer-skills-frontDev-text {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
+  padding: 0;
+}
+#boxMain-front-developer-skills-frontDev-text p{
+  margin: 0;
+  padding: 0;
+}
+#boxMain-front-developer-skills-frontDev-icons {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

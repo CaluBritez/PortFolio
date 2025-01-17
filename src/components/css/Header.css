@@ -16,8 +16,6 @@ CELESTE: BCA2E7
   display: flex;
   justify-content: center;
   align-items: center;
-  /*border-bottom: 2px solid #FC5439;*/
-
 }
 #box-header-main-center {
   width: 80%;
@@ -77,6 +75,8 @@ CELESTE: BCA2E7
   /*box-shadow: 10px 10px 15px black;*/
   box-shadow: 10px 10px 20px #333333;
   /*box-shadow: 10px 10px 20px #333333;*/
+  cursor: pointer;
+  
 }
 #box-header-botonera a:hover{
   background-color: #372F6B;

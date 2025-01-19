@@ -35,8 +35,8 @@ CELESTE: BCA2E7
   background-color: #7C58AA;
 }
 
-.boton-beige {
-  background-color: #FEF094;
+.boton-lila-chico {
+  background-color: #553769;
+  color :#FEF094;
   border-radius: 5px;
-  border: 2px solid;
 }

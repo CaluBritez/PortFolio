@@ -1,6 +1,6 @@
 import './css/Header.css'
 import { useDispatch } from 'react-redux';
-import { home, conocimientos, proyectos, trayectoria, contacto } from '../store/ui/uiSlice';
+import { conocimientos, proyectos, trayectoria, contacto } from '../store/ui/uiSlice';
 
 import { GoLightBulb } from "react-icons/go";
 import { AiOutlineDatabase } from "react-icons/ai";

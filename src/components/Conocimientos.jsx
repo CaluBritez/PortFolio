@@ -1,17 +1,21 @@
 import './css/Conocimientos.css'
+import { useDispatch } from 'react-redux';
+import { home } from '../store/ui/uiSlice';
 
 import imgDeveloper from '../assets/softDeve.jpg'
+import 'animate.css';
 
 import {Skill} from './Skill.jsx'
 
 export const Conocimientos = () => {
 
+  const dispatch = useDispatch();
   
   return (
-    <div id='box-main-conocimientos'>
+    <div id='box-main-conocimientos' className='animate__animated animate__zoomIn'>
 
       <div id='boxMain-conocimientos-volver'>
-        <button className='boton-beige'>Volver</button>
+        <button className='boton-lila-chico' onClick={() => dispatch(home())}>Volver</button>
 
       </div>
 

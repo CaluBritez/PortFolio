@@ -18,8 +18,14 @@ CELESTE: BCA2E7
   padding-bottom: 2rem;
   font-family: 'coolvetica', sans-serif;
   border-radius: 5px;
-  border: 2px solid #FEF094;
-  background-color: #FEC2B5;
+  /*border: 2px solid #FEF094;*/
+  background-color: #7B66AB;
+  box-shadow: 10px 10px 20px #333333;
+  color: black;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 #boxMain-conocimientos-volver {
   width: 100%;
@@ -30,7 +36,17 @@ CELESTE: BCA2E7
 }
 #boxMain-conocimientos-volver button{
   margin: 0.5rem;
+  font-size: 0.9rem;
+  box-shadow: 10px 10px 20px #333333;
+  font-family: Helvetica, sans-serif;
+  padding: 0.3rem;
+  border: none;
 }
+#boxMain-conocimientos-volver button:hover{
+  background-color: #372F6B;
+}
+
+
 #boxMain-developer {
   width: 100%;
   height: auto;
@@ -49,7 +65,7 @@ CELESTE: BCA2E7
 #boxMain-developer-img img{
   width: 90%;
   border-radius: 5px;
-  border: 2px solid #FEF094;
+  border: 2px solid black;
 }
 #boxMain-developer-skills {
   width: 70%;
@@ -72,12 +88,15 @@ CELESTE: BCA2E7
   font-size: 1.2rem;
 }
 #boxMain-developer-skills-frontDev {
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 0.5rem;
+  border-bottom: 2px solid black;
+  padding-bottom: 0.5rem;
+  background-color: #9988BB;
 }
 #boxMain-developer-skills-frontDev-text {
   display: flex;
@@ -104,6 +123,10 @@ CELESTE: BCA2E7
   justify-content: center;
   align-items: center;
   margin-bottom: 0.5rem;
+  border-bottom: 2px solid black;
+  padding-bottom: 0.5rem;
+  background-color: #9988BB;
+
 }
 #boxMain-developer-skills-backDev {
   display: flex;
@@ -165,6 +188,9 @@ CELESTE: BCA2E7
   justify-content: center;
   align-items: center;
   margin-bottom: 0.5rem;
+  border-bottom: 2px solid black;
+  padding-bottom: 0.5rem;
+  background-color: #9988BB;
 }
 #boxMain-developer-skills-verControlDev {
   display: flex;
@@ -243,6 +269,9 @@ CELESTE: BCA2E7
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background-color: #9988BB;
+  border-bottom: 2px solid black;
+  padding-bottom: 0.5rem;
 }
 #boxMain-developer-skills-extraDev-firstBox {
   display: flex;
@@ -283,4 +312,30 @@ CELESTE: BCA2E7
   width: 40%;
   padding-left: 1rem;
   margin-bottom: 0.3rem;
+}
+
+/* Teléfonos pequeños */
+@media (max-width: 575px) {
+  
+}
+
+/* Teléfonos grandes */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Tabletas */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  
+}
+
+/* Laptops pequeñas */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/* Monitores grandes */
+@media (min-width: 1200px) {
+  
 }

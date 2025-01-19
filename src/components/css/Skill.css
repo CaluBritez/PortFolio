@@ -27,4 +27,39 @@ CELESTE: BCA2E7
   margin-bottom: 0;
   margin-left: 0.3rem;
   margin-right: 0.3rem;
+  text-align: center;
+}
+.sizeH2{
+  font-size: 1.5rem;
+}
+
+/* Teléfonos pequeños */
+@media (max-width: 575px) {
+  #skill-component p{
+    font-size: 0.6rem;
+  }
+  .sizeH2{
+    font-size: 1.2rem;
+  }
+}
+
+
+
+/* Teléfonos grandes */
+@media (min-width: 576px) and (max-width: 767px) {
+  #skill-component p{
+    font-size: 0.6rem;
+  }
+  .sizeH2{
+    font-size: 1.2rem;
+  }
+}
+
+/* Tabletas */
+@media (min-width: 768px) and (max-width: 991px) {
+  #skill-component p{
+    font-size: 0.8rem;
+  }
+
+
 }

@@ -2,7 +2,14 @@ import './css/Conocimientos.css'
 import { useDispatch } from 'react-redux';
 import { home } from '../store/ui/uiSlice';
 
+import { ImStatsBars2 } from "react-icons/im";
+import { GiProgression } from "react-icons/gi";
+import { TbReportAnalytics } from "react-icons/tb";
+import { FaPeopleGroup } from "react-icons/fa6";
+import { GiTeacher } from "react-icons/gi";
+
 import imgDeveloper from '../assets/softDeve.jpg'
+import imgAptitudes from '../assets/ing.jpg'
 import 'animate.css';
 
 import {Skill} from './Skill.jsx'
@@ -126,6 +133,62 @@ export const Conocimientos = () => {
 
       <div id='boxMain-Aptitudes'>
 
+        <div id='boxMain-Aptitudes-img'>
+          <img src={imgAptitudes} alt="" />
+        </div>
+        <div id='boxMain-Aptitudes-text'>
+
+          <div id='boxMain-Aptitudes-text-textOne'>
+            <p>Mi experiencia trabajando como Ingeniero Industrial durante 6 años y medio, me brindo muchas habilidades, tanto Técnicas como Blandas:</p>
+          </div>
+
+          <div className='boxMain-Aptitudes-text-car'>
+            <div className='boxMain-Aptitudes-text-car-icon'>
+              <p><ImStatsBars2 /></p>
+            </div>
+            <div className='boxMain-Aptitudes-text-car-text'>
+              <p>Conocimiento avanzado de Estadísticas y Matemáticas</p>
+            </div>
+          </div>
+
+          <div className='boxMain-Aptitudes-text-car'>
+            <div className='boxMain-Aptitudes-text-car-icon'>
+              <p><GiProgression /></p>
+            </div>
+            <div className='boxMain-Aptitudes-text-car-text'>
+              <p>Análisis de resultados financieros y productivos</p>
+            </div>
+          </div>
+
+          <div className='boxMain-Aptitudes-text-car'>
+            <div className='boxMain-Aptitudes-text-car-icon'>
+              <p><TbReportAnalytics /></p>
+            </div>
+            <div className='boxMain-Aptitudes-text-car-text'>
+              <p>Elaboración de Informes</p>
+            </div>
+          </div>
+
+          <div className='boxMain-Aptitudes-text-car'>
+            <div className='boxMain-Aptitudes-text-car-icon'>
+              <p><FaPeopleGroup /></p>
+            </div>
+            <div className='boxMain-Aptitudes-text-car-text'>
+              <p>Liderazgo y manejo de personal</p>
+            </div>
+          </div>
+
+          <div className='boxMain-Aptitudes-text-car'>
+            <div className='boxMain-Aptitudes-text-car-icon'>
+              <p><GiTeacher /></p>
+            </div>
+            <div className='boxMain-Aptitudes-text-car-text'>
+              <p>Aptitud para transmitir conocimientos y capacitar personal </p>
+            </div>
+          </div>
+
+
+        </div>
       </div>
 
     </div>

@@ -139,13 +139,7 @@ export const Skill = ({ technology }) => {
     case "AutoCAD":
       icon = <SiAutocad />;
       text = "AutoCAD";
-      break
-    
-
-
-
-
-
+      break;
 
     default:
       text = "Unknown";
@@ -154,7 +148,7 @@ export const Skill = ({ technology }) => {
   return (
 
     <div id="skill-component">
-      <p className='h2'>{icon}</p>
+      <p><span className='sizeH2'>{icon}</span></p>
       <p>{text}</p>
     </div>
   )

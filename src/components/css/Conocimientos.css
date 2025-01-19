@@ -314,28 +314,306 @@ CELESTE: BCA2E7
   margin-bottom: 0.3rem;
 }
 
+#boxMain-Aptitudes {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#boxMain-Aptitudes-img {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#boxMain-Aptitudes-img img {
+  width: 90%;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+#boxMain-Aptitudes-text {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#boxMain-Aptitudes-text-textOne {
+  width: 100%;
+  height: auto;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+#boxMain-Aptitudes-text-textOne p{
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+.boxMain-Aptitudes-text-car {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  background-color: #9988BB;
+}
+.boxMain-Aptitudes-text-car-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+  height: auto;
+}
+.boxMain-Aptitudes-text-car-icon p{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+.boxMain-Aptitudes-text-car-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  height: auto;
+  padding: 0;
+}
+.boxMain-Aptitudes-text-car-text p{
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Teléfonos pequeños */
 @media (max-width: 575px) {
-  
+  #box-main-conocimientos {
+    width: 98%;
+  }
+  #boxMain-developer-img {
+    width: 20%;
+  }
+  #boxMain-developer-skills {
+    width: 80%;
+  }
+  #boxMain-Aptitudes-img {
+    width: 25%;
+  }
+  #boxMain-Aptitudes-text {
+    width: 75%;
+  }
+  #boxMain-developer-skills-frontDev-text p {
+    font-size: 1rem;
+  }
+  #boxMain-developer-skills-backDev-text p {
+    font-size: 1rem;
+  }
+  #boxMain-developer-skills-dataBaseDev-text p {
+    font-size: 1rem;
+  }
+  #boxMain-developer-skills-verControlDev-text p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #boxMain-developer-skills-designDev-text p {
+    font-size: 1rem;
+  }
+  #boxMain-developer-skills-extraDev-secondBox {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-extraDev-fourthBox {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-extraDev-firstBox {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-extraDev-thirdBox {
+    justify-content: center;
+  }
+  .boxMain-Aptitudes-text-car-text {
+    justify-content: center;
+  }
+  .boxMain-Aptitudes-text-car p{
+    font-size: 1rem;
+    text-align: center;
+  }
+  #boxMain-developer-skills-verControlDev-text {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-verControlDev-icons {
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #boxMain-developer-skills-verControlDev {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-designDev {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-designDev-text {
+    justify-content: center;
+    margin-right: 0.3rem;
+    margin-left: 0;
+  }
+  #boxMain-developer-skills-designDev-icons {
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 /* Teléfonos grandes */
 @media (min-width: 576px) and (max-width: 767px) {
-
+  #box-main-conocimientos {
+    width: 98%;
+  }
+  #boxMain-developer-img {
+    width: 20%;
+  }
+  #boxMain-developer-skills {
+    width: 80%;
+  }
+  #boxMain-Aptitudes-img {
+    width: 25%;
+  }
+  #boxMain-Aptitudes-text {
+    width: 75%;
+  }
+  #boxMain-developer-skills-frontDev-text p {
+    font-size: 1rem;
+  }
+  #boxMain-developer-skills-backDev-text p {
+    font-size: 1rem;
+  }
+  #boxMain-developer-skills-dataBaseDev-text p {
+    font-size: 1rem;
+  }
+  #boxMain-developer-skills-verControlDev-text p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #boxMain-developer-skills-designDev-text p {
+    font-size: 1rem;
+  }
+  #boxMain-developer-skills-extraDev-secondBox {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-extraDev-fourthBox {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-extraDev-firstBox {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-extraDev-thirdBox {
+    justify-content: center;
+  }
+  .boxMain-Aptitudes-text-car-text {
+    justify-content: center;
+  }
+  .boxMain-Aptitudes-text-car p{
+    font-size: 1rem;
+    text-align: center;
+  }
+  #boxMain-developer-skills-verControlDev-text {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-verControlDev-icons {
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #boxMain-developer-skills-verControlDev {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-designDev {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-designDev-text {
+    justify-content: center;
+    margin-right: 0.3rem;
+    margin-left: 0;
+  }
+  #boxMain-developer-skills-designDev-icons {
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 /* Tabletas */
 @media (min-width: 768px) and (max-width: 991px) {
-
+  #box-main-conocimientos {
+    width: 95%;
+  }
+  #boxMain-developer-skills-frontDev-text p {
+    font-size: 1.2rem;
+  }
+  #boxMain-developer-skills-backDev-text p {
+    font-size: 1.2rem;
+  }
+  #boxMain-developer-skills-dataBaseDev-text p {
+    font-size: 1.2rem;
+  }
+  #boxMain-developer-skills-verControlDev-text p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  #boxMain-developer-skills-designDev-text p {
+    font-size: 1.2rem;
+  }
+  #boxMain-developer-skills-extraDev-secondBox {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-extraDev-fourthBox {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-extraDev-firstBox {
+    justify-content: center;
+  }
+  #boxMain-developer-skills-extraDev-thirdBox {
+    justify-content: center;
+  }
+  .boxMain-Aptitudes-text-car p{
+    font-size: 1.1rem;
+  }
   
 }
 
 /* Laptops pequeñas */
 @media (min-width: 992px) and (max-width: 1199px) {
-  
+  #box-main-conocimientos {
+    width: 90%;
+  }
 }
 
 /* Monitores grandes */
+/*
 @media (min-width: 1200px) {
   
+  
 }
+*/

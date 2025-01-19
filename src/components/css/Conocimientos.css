@@ -1,75 +1,286 @@
+/*
+AZUL: #413F8A
+LILA MEDIO: #7C58AA
+LILA OSCURO: #553769
+ROSA: D277BD
+BEIGE: #FEC2B5
+ORIGINAL BEIGE:#FEF094
+CELESTE: BCA2E7
 
+*/
 #box-main-conocimientos {
-  background-color: red;
-  width: 80%;
+  width: 70%;
+  height: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: 'coolvetica', sans-serif;
+  border-radius: 5px;
+  border: 2px solid #FEF094;
+  background-color: #FEC2B5;
 }
-#boxMain-front-developer {
+#boxMain-conocimientos-volver {
   width: 100%;
   height: auto;
-  background-color: blue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#boxMain-conocimientos-volver button{
+  margin: 0.5rem;
+}
+#boxMain-developer {
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
-#boxMain-front-developer-img {
+#boxMain-developer-img {
   width: 30%;
-  height: auto;
-  background-color: purple;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#boxMain-front-developer-img img{
-  width: 100%;
+#boxMain-developer-img img{
+  width: 90%;
+  border-radius: 5px;
+  border: 2px solid #FEF094;
 }
-#boxMain-front-developer-skills {
+#boxMain-developer-skills {
   width: 70%;
-  height: 25rem;
-  background-color: green;
+  height: auto;
 }
-#boxMain-front-developer-skills-textOne {
+#boxMain-developer-skills-textOne {
   width: 100%;
   height: auto;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
-  background-color: yellow;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
-#boxMain-front-developer-skills-textOne p{
+#boxMain-developer-skills-textOne p{
   margin: 0;
   padding: 0;
-  background-color: orange;
+  font-size: 1.2rem;
 }
-#boxMain-front-developer-skills-frontDev {
+#boxMain-developer-skills-frontDev {
   width: 100%;
-  height: 5rem;
-  background-color: pink;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
-#boxMain-front-developer-skills-frontDev-text {
-  background-color: brown;
+#boxMain-developer-skills-frontDev-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 3rem;
+  margin-right: 0.5rem;
   padding: 0;
 }
-#boxMain-front-developer-skills-frontDev-text p{
+#boxMain-developer-skills-frontDev-text p{
   margin: 0;
   padding: 0;
+  font-size: 1.5rem;
 }
-#boxMain-front-developer-skills-frontDev-icons {
-  background-color: cadetblue;
+#boxMain-developer-skills-frontDev-icons {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 0.5rem;
+}
+#boxMain-developer-skills-backDataBaseDev {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+#boxMain-developer-skills-backDev {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+#boxMain-developer-skills-backDev-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  padding: 0;
+}
+#boxMain-developer-skills-backDev-text p{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+#boxMain-developer-skills-backDev-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+#boxMain-developer-skills-dataBaseDev {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+#boxMain-developer-skills-dataBaseDev-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  padding: 0;
+}
+#boxMain-developer-skills-dataBaseDev-text p{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+#boxMain-developer-skills-dataBaseDev-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+#boxMain-developer-skills-verControlDesignDev {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+#boxMain-developer-skills-verControlDev {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+#boxMain-developer-skills-verControlDev-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  padding: 0;
+}
+#boxMain-developer-skills-verControlDev-text p{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+#boxMain-developer-skills-verControlDev-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+#boxMain-developer-skills-designDev {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+#boxMain-developer-skills-designDev-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  padding: 0;
+  margin-left: 1rem;
+}
+#boxMain-developer-skills-designDev-text p{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+#boxMain-developer-skills-designDev-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+#boxMain-developer-skills-textTwo {
+  width: 100%;
+  height: auto;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+#boxMain-developer-skills-textTwo p{
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+#boxMain-developer-skills-extraDev {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#boxMain-developer-skills-extraDev-firstBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  padding-right: 1rem;
+  margin-bottom: 0.3rem;
+}
+#boxMain-developer-skills-extraDev-secondBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 40%;
+  padding-left: 1rem;
+  margin-bottom: 0.3rem;
+}
+#boxMain-developer-skills-extraDev-thirdBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  padding-right: 1rem;
+  margin-bottom: 0.3rem;
+}
+#boxMain-developer-skills-extraDev-fourthBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 40%;
+  padding-left: 1rem;
+  margin-bottom: 0.3rem;
 }

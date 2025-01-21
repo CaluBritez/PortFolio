@@ -1,0 +1,136 @@
+/*
+AZUL: #413F8A
+LILA MEDIO: #7C58AA
+LILA OSCURO: #553769
+ROSA: D277BD
+BEIGE: #FEC2B5
+ORIGINAL BEIGE:#FEF094
+CELESTE: BCA2E7
+
+#7B66AB
+
+*/
+
+#box-main-body-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34rem;
+    width: 70%;
+}
+
+#box-main-contacto-datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 24rem;
+    width: 25rem;
+    background-color: #7B66AB;
+    box-shadow: 10px 10px 20px #333333;
+    border-radius: 5px;
+    margin-right: 2.5rem;
+    padding-top: 1rem;
+}
+#box-main-contacto-datos-textOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+.titulo-negro{
+    color: black;
+    font-size: 2.1rem;
+    font-family: 'franchise';
+    margin: 0;
+    padding: 0;
+}
+.box-main-contacto-datos-textCar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-main-contacto-datos-textCar-icon {
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-main-contacto-datos-textCar-icon p{
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+.box-main-contacto-datos-textCar-text {
+  width: 80%;
+  height: auto;
+}
+.box-main-contacto-datos-textCar-text p{
+  margin-top: 0.6rem;
+  margin-bottom: 0;
+  margin-left: 0.5rem;
+  padding: 0;
+  font-weight: bold;
+
+}
+
+#box-main-contacto-datos-textTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  margin-top: 0.3rem;
+}
+
+
+#box-main-contacto-mandarEmail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: #f5f5f5;
+    padding-top: 1rem;
+
+}
+#box-main-contacto-mandarEmail-textOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  background-color: yellow;
+}
+#box-main-contacto-mandarEmail-textOne h5{
+  color: black;
+  font-size: 1.3rem;
+  font-family: 'coolvetica';
+  margin: 0;
+  padding: 0;
+}
+#box-main-contacto-mandarEmail form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  width: 100%;
+  background-color: aqua;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+#box-main-contacto-mandarEmail form input{
+  border-radius: 5px;
+  width: 90%;
+}
+#box-main-contacto-mandarEmail form textarea{
+  border-radius: 5px;
+  width: 90%;
+  height: 9rem;
+}

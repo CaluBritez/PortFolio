@@ -93,10 +93,17 @@ CELESTE: BCA2E7
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
-    width: 400px;
-    background-color: #f5f5f5;
-    padding-top: 1rem;
+    height: 500px;
+    width: 500px;
+
+    background-image: url('../../assets/marco.png');
+
+    /* Esto ajusta la imagen para cubrir todo el área del div */
+    background-size: cover; 
+    /* Centra la imagen en el div */
+    background-position: center;
+    /* Evita que la imagen se repita */
+    background-repeat: no-repeat; 
 
 }
 #box-main-contacto-mandarEmail-textOne {
@@ -105,11 +112,10 @@ CELESTE: BCA2E7
   align-items: center;
   height: auto;
   width: 100%;
-  background-color: yellow;
 }
 #box-main-contacto-mandarEmail-textOne h5{
   color: black;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-family: 'coolvetica';
   margin: 0;
   padding: 0;
@@ -118,19 +124,52 @@ CELESTE: BCA2E7
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   height: auto;
   width: 100%;
-  background-color: aqua;
   padding-top: 1rem;
-  padding-left: 1rem;
+}
+#box-main-contacto-mandarEmail form label{
+  border-radius: 5px;
+  width: 80%;
+  font-weight: bold;
+  margin-top: 0.5rem;
 }
 #box-main-contacto-mandarEmail form input{
   border-radius: 5px;
-  width: 90%;
+  width: 80%;
+  margin-top: 0.3rem;
+  padding-left: 0.2rem;
 }
 #box-main-contacto-mandarEmail form textarea{
   border-radius: 5px;
-  width: 90%;
-  height: 9rem;
+  width: 80%;
+  height: 7rem;
+  margin-top: 0.3rem;
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+}
+#box-main-contacto-mandarEmail form input::placeholder,
+#box-main-contacto-mandarEmail form textarea::placeholder {
+  font-size: 0.8rem;
+  color: #553769;
+}
+#box-form-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  margin-top: 1rem;
+  padding-right: 3rem;
+}
+#box-form-button button {
+  font-size: 0.9rem;
+  box-shadow: 10px 10px 20px #333333;
+  font-family: Helvetica, sans-serif;
+  padding: 0.3rem;
+  border: none;
+}
+#box-form-button button:hover{
+  background-color: #372F6B;
 }

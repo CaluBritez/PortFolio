@@ -50,13 +50,16 @@ export const Contacto = () => {
         </div>
         <form action="">
           <label htmlFor="nombre">Nombre</label>
-          <input type="text" id="nombre" />
+          <input type="text" id="nombre" placeholder='Ingrese su Nombre'/>
 
           <label htmlFor="email">Email</label>
-          <input type="email" id="email" />
+          <input type="email" id="email" placeholder='tuEmail@ejemplo.com' />
 
           <label htmlFor="mensaje">Mensaje</label>
-          <textarea id="mensaje"></textarea>
+          <textarea id="mensaje" placeholder='Deja tu mensaje'></textarea>
+          <div id='box-form-button'>
+            <button className='boton-lila-chico'>Enviar</button>
+          </div>
         </form>
 
       </div>

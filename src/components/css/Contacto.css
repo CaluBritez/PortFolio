@@ -24,13 +24,14 @@ CELESTE: BCA2E7
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 24rem;
+    height: auto;
     width: 25rem;
     background-color: #7B66AB;
     box-shadow: 10px 10px 20px #333333;
     border-radius: 5px;
     margin-right: 2.5rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 #box-main-contacto-datos-textOne {
     display: flex;
@@ -52,6 +53,7 @@ CELESTE: BCA2E7
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0.3rem;
 }
 .box-main-contacto-datos-textCar-icon {
   height: auto;
@@ -59,15 +61,25 @@ CELESTE: BCA2E7
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .box-main-contacto-datos-textCar-icon p{
   margin: 0;
   padding: 0;
   font-size: 2rem;
 }
+.box-main-contacto-datos-textCar-icon a{
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  cursor: pointer;
+}
 .box-main-contacto-datos-textCar-text {
   width: 80%;
-  height: auto;
+  height: 2.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .box-main-contacto-datos-textCar-text p{
   margin-top: 0.6rem;
@@ -75,7 +87,14 @@ CELESTE: BCA2E7
   margin-left: 0.5rem;
   padding: 0;
   font-weight: bold;
-
+}
+.box-main-contacto-datos-textCar-text a{
+  margin-top: 0.6rem;
+  margin-bottom: 0;
+  margin-left: 0.5rem;
+  padding: 0;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 #box-main-contacto-datos-textTwo {
@@ -161,7 +180,7 @@ CELESTE: BCA2E7
   height: auto;
   width: 100%;
   margin-top: 1rem;
-  padding-right: 3rem;
+  padding-right: 3.2rem;
 }
 #box-form-button button {
   font-size: 0.9rem;

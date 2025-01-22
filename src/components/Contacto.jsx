@@ -1,6 +1,10 @@
 import './css/Contacto.css';
 import { CgMail } from "react-icons/cg";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaFacebookSquare } from "react-icons/fa";
 
 
 export const Contacto = () => {
@@ -38,6 +42,42 @@ export const Contacto = () => {
 
         <div id='box-main-contacto-datos-textTwo'>
           <h5 className='titulo-negro'>Redes</h5>
+        </div>
+
+        <div className='box-main-contacto-datos-textCar'>
+          <div className='box-main-contacto-datos-textCar-icon'>
+            <a href="https://www.linkedin.com/in/lucasgastonbritez/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          </div>
+          <div className='box-main-contacto-datos-textCar-text'>
+            <a href="https://www.linkedin.com/in/lucasgastonbritez/" target="_blank" rel="noopener noreferrer">/lucasgastonbritez</a>
+          </div>
+        </div>
+
+        <div className='box-main-contacto-datos-textCar'>
+          <div className='box-main-contacto-datos-textCar-icon'>
+            <a href="https://github.com/CaluBritez" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
+          </div>
+          <div className='box-main-contacto-datos-textCar-text'>
+            <a href="https://github.com/CaluBritez" target="_blank" rel="noopener noreferrer">/CaluBritez</a>
+          </div>
+        </div>
+
+        <div className='box-main-contacto-datos-textCar'>
+          <div className='box-main-contacto-datos-textCar-icon'>
+            <a href="https://www.instagram.com/lucasbritez/" target="_blank" rel="noopener noreferrer"><IoLogoInstagram /></a>
+          </div>
+          <div className='box-main-contacto-datos-textCar-text'>
+            <a href="https://www.instagram.com/lucasbritez/" target="_blank" rel="noopener noreferrer">/lucasbritez</a>
+          </div>
+        </div>
+
+        <div className='box-main-contacto-datos-textCar'>
+          <div className='box-main-contacto-datos-textCar-icon'>
+            <a href="https://www.facebook.com/calubritez/" target="_blank" rel="noopener noreferrer"><FaFacebookSquare /></a>
+          </div>
+          <div className='box-main-contacto-datos-textCar-text'>
+            <a href="https://www.facebook.com/calubritez/" target="_blank" rel="noopener noreferrer">/calubritez</a>
+          </div>
         </div>
 
         

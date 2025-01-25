@@ -14,9 +14,10 @@ CELESTE: BCA2E7
 #box-main-body-contacto {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 34rem;
     width: 70%;
+    padding-top: 0.5rem;
 }
 
 #box-main-contacto-datos {
@@ -29,10 +30,33 @@ CELESTE: BCA2E7
     background-color: #7B66AB;
     box-shadow: 10px 10px 20px #333333;
     border-radius: 5px;
-    margin-right: 2.5rem;
-    padding-top: 1rem;
+    margin-right: 1.5rem;
+    padding-top: 0.7rem;
     padding-bottom: 1rem;
 }
+#box-main-contacto-datos-botonVolver {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  padding-left: 0.8rem;
+}
+
+#box-main-contacto-datos-botonVolver button {
+  font-size: 0.9rem;
+  box-shadow: 10px 10px 20px #333333;
+  font-family: Helvetica, sans-serif;
+  padding: 0.3rem;
+  border: none;
+}
+#box-main-contacto-datos-botonVolver button:hover{
+  background-color: #372F6B;
+}
+
+
 #box-main-contacto-datos-textOne {
     display: flex;
     justify-content: center;
@@ -53,7 +77,6 @@ CELESTE: BCA2E7
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0.3rem;
 }
 .box-main-contacto-datos-textCar-icon {
   height: auto;
@@ -66,17 +89,19 @@ CELESTE: BCA2E7
 .box-main-contacto-datos-textCar-icon p{
   margin: 0;
   padding: 0;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  color: black;
 }
 .box-main-contacto-datos-textCar-icon a{
   margin: 0;
   padding: 0;
-  font-size: 2rem;
+  font-size: 1.8rem;
   cursor: pointer;
+  color: black;
 }
 .box-main-contacto-datos-textCar-text {
   width: 80%;
-  height: 2.5rem;
+  height: auto;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -87,6 +112,7 @@ CELESTE: BCA2E7
   margin-left: 0.5rem;
   padding: 0;
   font-weight: bold;
+  color: black;
 }
 .box-main-contacto-datos-textCar-text a{
   margin-top: 0.6rem;
@@ -95,6 +121,7 @@ CELESTE: BCA2E7
   padding: 0;
   font-weight: bold;
   cursor: pointer;
+  color: black;
 }
 
 #box-main-contacto-datos-textTwo {
@@ -114,6 +141,7 @@ CELESTE: BCA2E7
     align-items: center;
     height: 500px;
     width: 500px;
+    margin-left: 1.5rem;
 
     background-image: url('../../assets/marco.png');
 
@@ -191,4 +219,72 @@ CELESTE: BCA2E7
 }
 #box-form-button button:hover{
   background-color: #372F6B;
+}
+
+/* Teléfonos pequeños */
+@media (max-width: 575px) {
+  #box-main-body-contacto {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    padding-top: 0.5rem;
+  }
+  #box-main-contacto-mandarEmail {
+    width: 95%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-image: none;
+  }
+  #box-main-contacto-datos {
+    width: 95%;
+    margin-right: 0;
+  }
+}
+
+/* Teléfonos grandes */
+@media (min-width: 576px) and (max-width: 767px) {
+
+  #box-main-body-contacto {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 94%;
+    padding-top: 0.5rem;
+  }
+  #box-main-contacto-mandarEmail {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+}
+
+/* Tabletas */
+@media (min-width: 768px) and (max-width: 991px) {
+  #box-main-body-contacto {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 94%;
+    padding-top: 0.5rem;
+  }
+  #box-main-contacto-mandarEmail {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+}
+
+/* Laptops pequeñas */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #box-main-body-contacto {
+    height: 34rem;
+    width: 94%;
+    padding-top: 0.5rem;
+  }
+}
+
+/* Monitores grandes */
+@media (min-width: 1200px) {
+  
 }

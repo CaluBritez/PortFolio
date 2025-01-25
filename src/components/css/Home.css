@@ -46,48 +46,7 @@ CELESTE: BCA2E7
   font-family: 'franchise';
   text-align: center;
 }
-/*
-@media (max-width: 1024px) {
-  #box-home-img {
-    width: 60%;
-  }
-  #box-home-texto {
-    width: 90%;
-  }
-  #box-home-texto p{
-    font-size: 3rem;
-  }
-  
-}
-@media (max-width: 991px) {
-  #box-home-texto {
-    width: 100%;
-    background-color: red;
-  }
-  #box-home-texto p{
-    font-size: 2.5rem;
-  }
-}
-@media (max-width: 767px) {
 
-  #box-center-home {
-    width: 90%;
-  }
-
-  #box-home-img {
-    width: 85%;
-  }
-
-  #box-home-texto {
-    width: 100%;
-    background-color: blue;
-  }
-
-  #box-home-texto p{
-    font-size: 1.8rem;
-  }
-}
-*/
 /* Teléfonos pequeños */
 @media (max-width: 575px) {
   #box-center-home {

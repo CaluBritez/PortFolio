@@ -1,4 +1,5 @@
 import './css/Contacto.css';
+import React, { useRef } from 'react';
 import { CgMail } from "react-icons/cg";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -6,17 +7,60 @@ import { BsGithub } from "react-icons/bs";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaFacebookSquare } from "react-icons/fa";
 
+import { home } from '../store/ui/uiSlice';
+import { useDispatch } from 'react-redux';
+
+import emailjs from '@emailjs/browser';
+
+import 'animate.css';
+
+import { toast } from 'sonner';
+import { getEnvVariables } from '../helpers/getEnvVariables.js';
+
+const { VITE_YOUR_SERVICE_ID, VITE_YOUR_TEMPLATE_ID, VITE_YOUR_PUBLIC_KEY } = getEnvVariables();
+
 
 export const Contacto = () => {
 
+  const dispatch = useDispatch();
 
+  const form = useRef();
+
+  const enviarCorreo = (e) => {
+    e.preventDefault();
+    
+    emailjs.sendForm(
+      VITE_YOUR_SERVICE_ID, // ID del servicio EmailJS
+      VITE_YOUR_TEMPLATE_ID, // ID de la plantilla
+      form.current, // Formulario como referencia
+      VITE_YOUR_PUBLIC_KEY // Clave pública de EmailJS
+    )
+    .then(() => {
+      toast.success('Mensaje enviado con Éxito', {
+        description: 'Me pondre en contacto contigo a la brevedad',
+        duration: 2500
+    });
+    })
+    .catch((error) => {
+      alert("Error al enviar el correo:", error);
+      console.log(error);
+      
+    });
+  
+    e.target.reset(); // Resetea el formulario
+  };
 
   return (
 
 
     <div id='box-main-body-contacto'>
 
-      <div id='box-main-contacto-datos'>
+      <div id='box-main-contacto-datos'className='animate__animated animate__zoomIn'>
+
+        <div id='box-main-contacto-datos-botonVolver'>
+          <button className='boton-lila-chico' onClick={() => dispatch(home())}>Volver</button>
+
+        </div>
 
         <div id='box-main-contacto-datos-textOne'>
           <h5 className='titulo-negro'>Datos de Contacto</h5>
@@ -83,22 +127,22 @@ export const Contacto = () => {
         
       </div>
 
-      <div id='box-main-contacto-mandarEmail'>
+      <div id='box-main-contacto-mandarEmail'className='animate__animated animate__zoomIn'>
 
         <div id='box-main-contacto-mandarEmail-textOne'>
           <h5>Puedes enviarme un mensaje aquí</h5>
         </div>
-        <form action="">
+        <form onSubmit={enviarCorreo} ref={form}>
           <label htmlFor="nombre">Nombre</label>
-          <input type="text" id="nombre" placeholder='Ingrese su Nombre'/>
+          <input type="text" id="nombre" name="user_name" placeholder="Ingrese su Nombre" required />
 
           <label htmlFor="email">Email</label>
-          <input type="email" id="email" placeholder='tuEmail@ejemplo.com' />
+          <input type="email" id="email" name="user_email" placeholder="tuEmail@ejemplo.com" required />
 
           <label htmlFor="mensaje">Mensaje</label>
-          <textarea id="mensaje" placeholder='Deja tu mensaje'></textarea>
+          <textarea id="mensaje" name="message" placeholder="Deja tu mensaje" required></textarea>
           <div id='box-form-button'>
-            <button className='boton-lila-chico'>Enviar</button>
+            <button className="boton-lila-chico" type="submit">Enviar</button>
           </div>
         </form>
 

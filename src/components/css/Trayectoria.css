@@ -1,6 +1,9 @@
 /*
 AZUL: #413F8A
 LILA CLARO: #9988BB
+
+lilaBox #7B66AB
+
 LILA MEDIO: #7C58AA
 LILA OSCURO: #553769
 ROSA: D277BD
@@ -13,7 +16,7 @@ CELESTE: BCA2E7
 
 #box-main-trayectoria {
   width: 80%;
-  height: 32rem;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -60,12 +63,15 @@ CELESTE: BCA2E7
 }
 #box-main-trayectoria-content {
   width: 80%;
-  height: 25rem;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
-  border: 1px solid black;
+  border: 3px solid black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 10px;
+  background-color: #9988BB;
 }
 
 #box-main-trayectoria-years-armario {
@@ -88,5 +94,78 @@ CELESTE: BCA2E7
   font-size: 1.5rem;
   width: 60%;
   text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 
+}
+#box-main-trayectoria-years-armario p:hover {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen al hacer hover */
+}
+
+#box-main-trayectoria-content-border {
+  width: 98%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-family: 'coolvetica';
+  background-color: #7B66AB;
+  padding: 0.3rem;
+}
+
+
+#box-main-trayectoria-content-border2025{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box-main-trayectoria-content-border2025-boxImg {
+  width: 30%;
+  height: auto;
+}
+#box-main-trayectoria-content-border2025-boxImg img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+#box-main-trayectoria-content-border2025-boxContent {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#box-main-trayectoria-content-border2025-boxContent h3{
+  text-align: center;
+  padding: 0;
+  font-size: 1.2rem;
+  background-color: #9988BB;
+  border-radius: 5px;
+  width: 95%;
+  padding: 0.3rem;
+}
+#box-main-trayectoria-content-border2025-boxContent a{
+  font-size: 1.2rem;
+  background-color: #9988BB;
+  border-radius: 5px;
+  padding: 0.2rem;
+  text-decoration: none;
+  color: black;
+}
+#box-main-trayectoria-content-border2025-boxContent a:hover{
+  color: #372F6B;
+}
+
+.carousel {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.carousel-inner img {
+  max-width: 20rem;
 }

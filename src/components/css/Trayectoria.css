@@ -27,7 +27,7 @@ CELESTE: BCA2E7
 #box-main-trayectoria-caja-cerrar {
   width: 100%;
   height: auto;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   display: flex;
@@ -50,15 +50,16 @@ CELESTE: BCA2E7
   height: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #box-main-trayectoria-years {
   width: 20%;
-  height: 20rem;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0.5rem;
 
 }
 #box-main-trayectoria-content {
@@ -72,6 +73,7 @@ CELESTE: BCA2E7
   padding-bottom: 0.5rem;
   border-radius: 10px;
   background-color: #9988BB;
+  margin-bottom: 1.5rem;
 }
 
 #box-main-trayectoria-years-armario {
@@ -88,7 +90,6 @@ CELESTE: BCA2E7
   box-shadow: 10px 10px 20px #333333;
 }
 #box-main-trayectoria-years-armario p{
-  color: black;
   border-bottom: 2px solid black;
   font-family: 'franchise';
   font-size: 1.5rem;
@@ -123,6 +124,7 @@ CELESTE: BCA2E7
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 #box-main-trayectoria-content-border2025-boxImg {
   width: 30%;
@@ -168,4 +170,38 @@ CELESTE: BCA2E7
 }
 .carousel-inner img {
   max-width: 20rem;
+}
+
+#box-main-trayectoria-content-border2025-textDev {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#box-main-trayectoria-content-border2025-textDev h3{
+  width: 90%;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #9988BB;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+#box-main-trayectoria-content-border2025-textDev img{
+  width: 40%;
+  border-radius: 50%;
+}
+#box-main-trayectoria-content-border2024 {
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box-main-trayectoria-content-border2023 {
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

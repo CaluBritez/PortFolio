@@ -40,3 +40,14 @@ CELESTE: BCA2E7
   color :#FEF094;
   border-radius: 5px;
 }
+.letraConSombra{
+  /*color: #372F6B;*/
+  color: black;
+  text-shadow: 
+    0px 0px 5px #FEF094,  /* Capa de sombra más cercana */
+    0px 0px 10px #FEF094, /* Capa media */
+    0px 0px 20px #FEF094; /* Capa más difusa */
+}
+.letraNegra{
+  color: black;
+}

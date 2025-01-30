@@ -1,4 +1,5 @@
 import './css/Trayectoria.css'
+import { useState } from 'react';
 
 import { useDispatch } from 'react-redux';
 
@@ -10,6 +11,7 @@ import orbita2 from '../assets/orbita2.png'
 import orbita3 from '../assets/orbita3.png'
 import orbita4 from '../assets/orbita4.png'
 import orbita5 from '../assets/orbita5.png'
+import devTeam from '../assets/devTeam.png'
 
 import { SiGooglemaps } from "react-icons/si";
 
@@ -19,6 +21,8 @@ import 'animate.css';
 export const Trayectoria = () => {
 
   const dispatch = useDispatch();
+
+  const [year,setYear] = useState('2025');
 
   return (
     <div id='box-main-trayectoria' className='animate__animated animate__zoomIn'>
@@ -31,11 +35,11 @@ export const Trayectoria = () => {
 
         <div id='box-main-trayectoria-years'>
           <div id='box-main-trayectoria-years-armario'>
-            <p href="">2024</p>
-            <p href="">2023</p>
-            <p href="">2022</p>
-            <p href="">2021</p>
-            <p href="">2020 - 2021</p>
+            <p className={year === '2025' ? 'letraConSombra' : 'letraNegra'} href="" onClick={()=>setYear('2025')}>2025</p>
+            <p className={year === '2024' ? 'letraConSombra' : 'letraNegra'} href="" onClick={()=>setYear('2024')}>2024</p>
+            <p className={year === '2023' ? 'letraConSombra' : 'letraNegra'} href="" onClick={()=>setYear('2023')}>2023</p>
+            <p className={year === '2022' ? 'letraConSombra' : 'letraNegra'} href="">2021</p>
+            <p className={year === '2021' ? 'letraConSombra' : 'letraNegra'} href="">2020 - 2021</p>
           </div>
         </div>
 
@@ -43,7 +47,10 @@ export const Trayectoria = () => {
 
           <div id='box-main-trayectoria-content-border'>
 
-            <div id='box-main-trayectoria-content-border2025'>
+          {year === "2025" && (
+
+            <div className='animate__animated animate__bounceInRight' id='box-main-trayectoria-content-border2025'>
+
               <div id='box-main-trayectoria-content-border2025-boxImg'>
                 <img src={curso} alt="" />
               </div>
@@ -80,10 +87,26 @@ export const Trayectoria = () => {
                   </button>
                 </div>
               </div>
+              <div id='box-main-trayectoria-content-border2025-textDev'>
+                <h3>Como Desarrollador, en estos momentos me encuentro realizando Proyectos de manera independiente en colaboración con otros Programadores.</h3>
+                <h3>Estoy abierto ante cualquier oportunidad, ya sea en relación de dependencia, como también a realizar trabajos a pedido. Siempre armo un grupo de trabajo que se adecue a las necesidades solicitadas.</h3>
+                <img src={devTeam} alt="" />
+              </div>
 
 
 
             </div>
+          )}
+          {year === "2024" && (
+            <div id='box-main-trayectoria-content-border2024' className='animate__animated animate__bounceInRight'>
+              <p>soy el 2024</p>
+            </div>
+          )}
+          {year === "2023" && (
+            <div id='box-main-trayectoria-content-border2023' className='animate__animated animate__bounceInRight'>
+              <p>soy el 2023</p>
+            </div>
+          )}
 
           </div>
 

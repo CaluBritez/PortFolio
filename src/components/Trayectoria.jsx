@@ -89,7 +89,7 @@ export const Trayectoria = () => {
               </div>
               <div id='box-main-trayectoria-content-border2025-textDev'>
                 <h3>Como Desarrollador, en estos momentos me encuentro realizando Proyectos de manera independiente en colaboración con otros Programadores.</h3>
-                <h3>Estoy abierto ante cualquier oportunidad, ya sea en relación de dependencia, como también a realizar trabajos a pedido. Siempre armo un grupo de trabajo que se adecue a las necesidades solicitadas.</h3>
+                <h3>Estoy abierto ante cualquier oportunidad, ya sea en relación de dependencia, como también a realizar trabajos a pedido. Siempre armo un Equipo que se adecue a las necesidades solicitadas.</h3>
                 <img src={devTeam} alt="" />
               </div>
 
@@ -99,7 +99,8 @@ export const Trayectoria = () => {
           )}
           {year === "2024" && (
             <div id='box-main-trayectoria-content-border2024' className='animate__animated animate__bounceInRight'>
-              <p>soy el 2024</p>
+              <h3>Terminando el 2024 logré graduarme como Técnico en Desarrollo de Software Multiplartaforma en el Instituo Politécnico Formosa</h3>
+              <h3>En la exposición final, con mi equipo de trabajo presentamos nuestra App Web llamada LegalDocs, la cual esta destinada a los Abogados y Estudios Jurídicos, facilitando sus labores y utilizando Inteligencia Artificial para las funciones más destacadas.</h3>
             </div>
           )}
           {year === "2023" && (

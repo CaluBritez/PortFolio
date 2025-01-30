@@ -194,14 +194,21 @@ CELESTE: BCA2E7
   border-radius: 50%;
 }
 #box-main-trayectoria-content-border2024 {
-  height: 15rem;
+  height: auto;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+}
+#box-main-trayectoria-content-border2024 h3{
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: aqua;
 }
 #box-main-trayectoria-content-border2023 {
   height: 15rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }

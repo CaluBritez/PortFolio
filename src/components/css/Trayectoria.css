@@ -196,19 +196,125 @@ CELESTE: BCA2E7
 #box-main-trayectoria-content-border2024 {
   height: auto;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#box-main-trayectoria-content-border2024 h3{
+  width: 90%;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #9988BB;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+.imgLogoIPF2024 {
+  width: 10rem;
+  background-color: #9988BB;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+#box-main-trayectoria-content-border2023 {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+#box-main-trayectoria-content-border2024-curso {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box-main-trayectoria-content-border2024-boxImg{
+  width: 30%;
+  height: auto;
+}
+#box-main-trayectoria-content-border2024-boxImg img{
+  width: 100%;
+  border-radius: 10px;
+}
+#box-main-trayectoria-content-border2024-boxContent{
+  width: 70%;
+  height: auto;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
-#box-main-trayectoria-content-border2024 h3{
-  font-size: 1.2rem;
+#box-main-trayectoria-content-border2024-boxContent h3{
   text-align: center;
-  background-color: aqua;
+  font-size: 1.2rem;
+  background-color: #9988BB;
+  border-radius: 5px;
+  width: 95%;
+  padding: 0.3rem;
 }
-#box-main-trayectoria-content-border2023 {
-  height: 15rem;
+#box-main-trayectoria-content-border2024-boxContent a{
+  font-size: 1.2rem;
+  background-color: #9988BB;
+  border-radius: 5px;
+  padding: 0.2rem;
+  text-decoration: none;
+  color: black;
+}
+#box-main-trayectoria-content-border2024-boxContent a:hover{
+  color: #372F6B;
+}
+#box-main-trayectoria-content-border2023-chauBolognino {
+  width: 100%;
+  height: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  
+  flex-wrap: wrap;
+}
+#box-main-trayectoria-content-border2023-chauBolognino h3{
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #9988BB;
+  border-radius: 5px;
+  width: 75%;
+  padding: 0.3rem;
+}
+#box-main-trayectoria-content-border2023-chauBolognino img{
+  width: 20%;
+}
+#box-main-trayectoria-content-border2023-holaIPF {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#box-main-trayectoria-content-border2023-holaIPF h3{
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #9988BB;
+  border-radius: 5px;
+  width: 90%;
+  padding: 0.3rem;
+}
+#notasImg {
+  width: 60%;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+#carru {
+  width: 20%;
+}
+#box-main-trayectoria-content-border2023-holaIPF a{
+  background-color: #9988BB;
+  padding: 0.3rem;
+  text-decoration: none;
+  padding: 0.3rem;
+  border-radius: 5px;
+  color: black;
+}
+#box-main-trayectoria-content-border2023-holaIPF a:hover{
+  color: #372F6B;
 }

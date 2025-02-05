@@ -43,6 +43,7 @@ import bolo4 from '../assets/bolo4.png'
 import logoUTN from '../assets/logoUTN.png'
 import frenteUTN from '../assets/UTNfrente.jpg'
 import logoWD from '../assets/logoWD.png'
+import boloSolo from '../assets/boloSolo.png'
 
 import { IoLogoInstagram } from "react-icons/io5";
 
@@ -304,7 +305,22 @@ export const Trayectoria = () => {
           )}
           {year === "2016" && (
             <div id='box-main-trayectoria-content-border2016' className='animate__animated animate__bounceInRight'>
-              <img src={logoWD} alt="" />
+              <div id='box-main-trayectoria-content-border2016-wd'>
+                <div id='box-main-trayectoria-content-border2016-wd-img'>
+                  <img src={logoWD} alt="" />
+                </div>
+                <div id='box-main-trayectoria-content-border2016-wd-text'>
+                  <h3>Cursando el 5.º año de Ingeniería Industrial en la Universidad Tecnológica Nacional de Córdoba, un profesor nos ofreció a mi grupo de facultad realizar un proyecto en la fábrica donde trabajaba, llamada <a href="https://www.wdimpresiones.com.ar/" target="_blank" rel="noopener noreferrer" className='letraAzul'>WD S.A.</a></h3> <h3>El proyecto consistía en realizar un estudio detallado del Scrap que generaba la fábrica. El objetivo era elaborar un informe en el que se propusieran medidas para reducir el scrap resultante, demostrar cuánto dinero perdía la empresa con su scrap actual y cuánto podía reducir esas pérdidas mediante nuestras propuestas.</h3> <h3>Fue un proyecto que duró desde marzo hasta junio. En este corto tiempo, pude tener mi primera experiencia laboral.</h3>
+                </div>
+              </div>
+              <div id='box-main-trayectoria-content-border2016-bolo'>
+                <div id='box-main-trayectoria-content-border2016-bolo-img'>
+                  <img src={boloSolo} alt="" />
+                </div>
+                <div id='box-main-trayectoria-content-border2016-bolo-text'>
+                <h3>Nuestro trabajo resultó del agrado del dueño y de los directivos de la empresa, a tal punto que surgió una vacante en una empresa hermana y proveedora llamada <a href="https://bolognino.com.ar/" target="_blank" rel="noopener noreferrer" className='letraAzul'>Bolognino S.A.</a> Nos postularon como posibles candidatos para tomar el puesto y nos realizaron una entrevista de trabajo individual a cada integrante de mi grupo de la facultad.</h3> <h3>Logré quedar seleccionado para el puesto, que consistía en ser encargado de logística y programación de la producción. Pasé muchos años de mi vida en este trabajo, cuyas tareas describo en detalle en la sección <a onClick={()=>setYear('2022')} className='letraAzul'>2017-2022</a>.</h3>
+                </div>
+              </div>
             </div>
           )}
 
